@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+    --color-general:#333;
+	--color-amarillo:#;
+	
+}
+body{
+	font-size: 14px;font-family: 'opensans', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--color-general);
+}
+header{
+	background-color: #000;
+	position: relative;
+	width: 100%;
+	padding: 10px 0;
+}
+#hero{
+	background-image:url(../img/bg-hero.jpg);
+	background-position: top center;
+	background-size: cover;
+	background-color: var(--fondo-verde);
+	padding: 5% 0;
+}
+#features {
+	text-align: center
+}
+
+.btn-amarillo{
+	background-color: var(--color-amarillo);
+	color: #fff;
+	padding:14px 30px;
+	font-size:16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+footer{
+	background-color: #000000;
+	padding: 40px 0;
+
+}
+
+.firma{
+	font-size: 15px;
+	color: #ffff;
+	text-align: center;
+}
+
+
+#leidos{
+	align-items: center;
+	padding: 5% 0
+}
+
+#leidos{
+	text-align: center;
+	padding: 5% 0
+
+}
